@@ -1,0 +1,21 @@
+/* 
+text-decoration: underline - добавляет подчеркивание
+
+text-decoration: overline - добавляет линию над текстом
+
+line-through -добавляет линию,
+перечеркивающую текст
+
+text-decoration: none - отменяет все эффекты
+*/
+p{
+  color: red;
+  text-decoration: overline
+}
+h2{
+  color: green;
+  text-decoration: line-through;
+}
+h3{
+  text-decoration: underline;
+}
