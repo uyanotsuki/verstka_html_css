@@ -1,0 +1,36 @@
+.ee {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.zz {
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.gg {
+  font-size: 35px;
+  text-align: center;
+  font-family: Arial;
+}
+
+/* упрощенный код: */
+
+.ee, .gg, .zz{
+  text-align: center;
+  font-family: Arial;
+}
+
+.ee {
+  font-size: 20px;
+}
+
+.zz {
+  font-size: 30px;
+}
+
+.gg {
+  font-size: 35px;
+}

@@ -1,0 +1,23 @@
+.eee {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Arial;
+}
+
+.zzz {
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: Arial;
+}
+/* упрощенный код: */
+
+.eee {
+  font-size: 20px;
+}
+.zzz {
+  font-size: 30px;
+}
+.eee, .zzz{
+  line-height: 1.5;
+  font-family: Arial;
+}
