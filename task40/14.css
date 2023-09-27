@@ -1,0 +1,6 @@
+ .fff p{
+  color: olive;
+  font-weight: bold;
+  font-size: 30px;
+}
+/*  выберет два абзаца внутри элемента с классом "fff" */
