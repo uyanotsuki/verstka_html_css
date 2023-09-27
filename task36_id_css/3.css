@@ -1,0 +1,9 @@
+/* vсе абзацы с классом text,
+находящиеся в элементе с id,
+равным elem */
+
+#elem p.text{
+  color: palevioletred;
+  font-family: Arial;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+/* 1 */
+.bbb.zzz {
+  color: red;
+} 
+
+/* 2 */
+h2.bb.zz {
+  color: purple;
+  font-size: 40px;
+}
+
+/* 3 */
+#elem.bb1 {
+  color: greenyellow;
+}
+
+/* 4 */
+#elem1.bb2.zz2 {
+  color: red;
+} 
+/* 5 */
+h2#elem2.bb3 {
+  color: rgb(211, 0, 155);
+  font-size: 25px;
+}
+/* селектор .bbb.zzz и селектор .bbb .zzz делают разные вещи. Первый ищет элемент,
+имеющий одновременно два класса,
+а второй - ищет элемент с классом zzz,
+находящийся внутри класса bbb. */
+
+/* task 6 */ 
+h2.kkj {
+  color: rgb(88, 15, 167);
+}

@@ -1,0 +1,7 @@
+/* выберетe все li с классом text,
+находящиеся в элементе с id,
+равным elem */
+#elem ul .text{
+  font-size: 30px;
+  color: palegreen;
+}
