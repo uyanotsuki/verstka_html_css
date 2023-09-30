@@ -1,0 +1,18 @@
+#elem1{
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 30px;
+}
+#elem2 {
+  width: 200px;
+  height: 200px;
+  background-color:  green;
+  border-radius: 30px;
+}
+#elem3 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 100px;
+}
