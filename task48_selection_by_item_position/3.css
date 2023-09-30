@@ -1,0 +1,6 @@
+li:first-child {
+  color: rgb(13, 152, 67);
+}
+li:last-child {
+  color: blue;
+}

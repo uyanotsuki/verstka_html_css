@@ -1,0 +1,12 @@
+li:empty{
+  border: 2px solid blue; /* задает границу вокруг ссылки */
+  color: rgb(0, 0, 0);
+  width: 100px; /* ширина */
+  height: 20px;
+}
+li{
+  border: 2px solid #a2124c;/* задает границу вокруг ссылки */
+  color: rgb(0, 0, 0);
+  width: 100px; /* ширина */
+  height: 20px;
+}

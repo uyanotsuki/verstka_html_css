@@ -1,0 +1,11 @@
+/* 1 */
+#elem + li{
+  color: blue;
+  font-size: 30px;
+}
+
+/* 2 */
+.el + li {
+  color: blue;
+  font-size: 30px;
+}

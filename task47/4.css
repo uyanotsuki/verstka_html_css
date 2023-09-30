@@ -1,0 +1,10 @@
+.block a.zzz {
+  color: rgb(14, 79, 242);
+  font-size: 20px;
+}
+
+.block a.zzz:hover {
+  text-decoration: none;
+  color: red;
+}
+/* Этот селектор выбирает все ссылки с классом "zzz", которые находятся внутри элемента с классом block. */
