@@ -1,0 +1,7 @@
+h2:nth-of-type(even) {
+  color: red;
+}
+.zz p:nth-last-of-type(3) {
+  color: #0f176e;
+  font-size: 30px;
+}
