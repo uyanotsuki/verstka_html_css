@@ -1,0 +1,28 @@
+#elem1 {
+  border-width: 5px;
+  border-style: ridge;
+  border-color: rgb(31, 31, 218);
+  width: 300px;
+  height: 220px;
+}
+#elem2 {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(218, 31, 100);
+  width: 300px;
+  height: 220px;
+}
+#elem3 {
+  border-width: 5px;
+  border-style: dashed;
+  border-color: rgb(8, 188, 44);
+  width: 300px;
+  height: 220px;
+}
+#elem4 {
+  border-width: 12px;
+  border-style: double;
+  border-color: rgb(45, 28, 195);
+  width: 300px;
+  height: 220px;
+}
