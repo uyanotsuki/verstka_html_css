@@ -1,0 +1,18 @@
+#elem1 {
+  width: 200px;
+  height: 200px;
+  background: #1e27a1;
+  margin-bottom: 20px;
+}
+
+#elem2 {
+  width: 200px;
+  height: 200px;
+  background: #3f1cb1;
+  padding: 20px;
+  /* задаем отступы */
+  border: 5px solid rgb(255, 166, 216);
+  /* задаем границу */
+  box-sizing: border-box;
+  /* убираем расширение */
+}
