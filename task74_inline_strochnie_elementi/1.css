@@ -1,0 +1,31 @@
+.parent {
+  padding: 10px 0;
+  border: 2px solid blueviolet;
+  text-align: center;
+
+}
+a.q {
+  border: 2px solid plum;
+  box-sizing: border-box;
+  padding: 4px;
+  width: 30px;
+  height: 10px;
+  font-size: 20px;
+  background-color: plum;
+  color: white;
+}
+
+/* task 2 */
+.parent2 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: right;
+}
+
+/* task 3 */
+.parent3 {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: right;
+  padding-right: 10px;
+}

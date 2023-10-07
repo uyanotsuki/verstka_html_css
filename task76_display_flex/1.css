@@ -1,0 +1,86 @@
+.parent {
+  margin: 20px auto;
+  display: flex;
+  width: 900px;
+  height: 500px;
+  border: 2px solid blue;
+}
+.child {
+  width: 150px;
+  height: 60px;
+  border: 2px solid palevioletred;
+}
+
+/* 2 Если родителю флекс элементов не задана высота, то по высоте он будет растягиваться своим содержимым, то есть высотой потомков:*/
+.parent2 {
+  margin: 20px auto;
+  display: flex;
+  width: 800px;
+  border: 2px solid blue;
+}
+
+.child2 {
+  width: 120px;
+  height: 80px;
+  border: 2px solid palevioletred;
+}
+
+/* 3 Если родителю флекс элементов не задана ширина, то по ширине он займет все доступное место:*/
+.parent3 {
+  margin: 30px auto;
+  display: flex;
+  border: 2px solid blue;
+}
+
+.child3 {
+  width: 100px;
+  height: 60px;
+  border: 2px solid palevioletred;
+}
+
+/* 4 inline-flex.
+Вместо значения flex для свойства display родителю можно поставить значение inline-flex. В этом случае этот родитель будет вести себя, как строчно-блочный элемент. */
+.parent4 {
+  margin: 30px auto;
+  display: inline-flex;
+  border: 2px solid blue;
+}
+
+.child4 {
+  width: 100px;
+  height: 60px;
+  border: 2px solid palevioletred;
+}
+
+/* 5 
+Родителю можно задать отступы padding: */
+.parent5 {
+  margin: 30px auto;
+  /* width: 600px; */
+  display: flex;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.child5 {
+  width: 100px;
+  height: 60px;
+  border: 2px solid palevioletred;
+}
+
+/* 6 */
+.parent6 {
+  /* display: inline-flex;
+  border: 1px solid rgb(214, 63, 106); */
+
+  margin: 30px auto;
+  display: flex;
+  border: 2px solid rgb(255, 0, 217);
+}
+
+.child6 {
+  margin: 30px;
+  width: 110px;
+  height: 60px;
+  border: 2px solid rgb(0, 117, 128);
+}

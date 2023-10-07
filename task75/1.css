@@ -1,0 +1,92 @@
+  /* Преобразуйте дивы-потомки в строчно-блочные элементы,
+  задайте им горизонтальный margin в 5px,
+  а затем отцентрируйте их по горизонтали относительно своего родителя. */
+.parent {
+  padding: 10px 0;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.child {
+  display: inline-block ;
+  padding: 10px;
+  border: 1px solid green;
+  margin: 0px 5px;
+}
+
+/* 2 */
+.parent2 {
+	padding: 10px 0;
+	border: 2px solid rgb(170, 0, 255);
+  text-align: right;
+}
+.child2 {
+  display: inline-block;
+	padding: 10px;
+	border: 2px solid rgb(0, 117, 128);
+}
+
+/* 3 */
+/* одифицируйте предыдущую задачу так,
+чтобы див не прижимался плотно к правому краю. Для этого родительскому элементу добавьте правый padding. */
+.parent3 {
+  padding: 10px 0;
+  border: 2px solid rgb(170, 0, 255);
+  text-align: right;
+  padding-right: 10px;
+}
+
+.child3 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid rgb(0, 117, 128);
+}
+
+/* 4 */
+/* Модифицируйте предыдущую задачу так,
+чтобы див не прижимался плотно к правому краю. Для этого элементу-потомку поставьте правый margin. */
+.parent4 {
+  padding: 10px 0;
+  border: 2px solid rgb(170, 0, 255);
+  text-align: right;
+  /* padding-right: 10px; */
+}
+
+.child4 {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid rgb(0, 117, 128);
+  margin-right: 10px;
+}
+
+/* 5 */
+.parent5 {
+  padding: 10px 0;
+  border: 3px solid rgb(0, 64, 255);
+  text-align: right; 
+  /* выравание доч. элемента по праву краю родителя */
+}
+
+.child5 {
+  width: 100px;
+  padding: 10px;
+  border: 3px solid rgb(128, 0, 96);
+  display: inline-block;
+}
+
+/* 6 */
+.parent6 {
+  padding: 10px 0;
+  border: 3px solid red;
+  text-align: right;
+}
+
+.child6 {
+  width: 100px;
+  padding: 10px;
+  border: 3px solid rgb(4, 0, 128);
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+

@@ -1,0 +1,85 @@
+.parent {
+  margin: 10px auto; 
+  /* выровнили весь блок по центру */
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 500px;
+  border: 2px solid blue;
+}
+
+.child {
+  width: 120px;
+  height: 60px;
+  border: 2px solid palevioletred;
+  /* text-align: center;   выравниваем текст внутри блоков по центру */
+}
+
+/* 2 */
+.parent2 {
+  margin: 10px auto;
+  /* выровнили весь блок по центру */
+  display: flex;
+
+  justify-content: space-between;
+  width: 900px;
+  height: 200px;
+  border: 2px solid blue;
+}
+.child2 {
+  width: 120px;
+  height: 60px;
+  border: 2px solid palevioletred;
+}
+
+/* 3 */
+.parent3 {
+  margin: 10px auto;
+  /* выровнили весь блок по центру */
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 30px;
+}
+
+.child3 {
+  /* margin: 10px auto; */
+  width: 120px;
+  height: 60px;
+  border: 2px dotted palevioletred;
+}
+
+/* 5 */
+
+.parent4 {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 200px;
+  border: 2px solid rgb(44, 101, 208);
+  border-radius: 30px;
+}
+
+.child4 {
+  margin: 10px auto;
+  width: 120px;
+  height: 60px;
+  border: 3px dotted palevioletred;
+  text-align: center;
+}
+.qq {
+  display: block;
+  margin: 30px auto;
+  width: 700px;
+  
+  border: 3px solid palevioletred;
+  background-color: pink;
+  font: 15px Arial;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
