@@ -1,0 +1,19 @@
+#parent2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+#child2 {
+  margin-top: 50px;
+  /* сверху */
+  /* margin-right: 20px; */
+  /* справа */
+  /* margin-bottom: 40px; */
+  /* снизу */
+  margin-left: 18px;
+  /* слева */
+  width: 160px;
+  height: 90px;
+  border: 1px solid green;
+}

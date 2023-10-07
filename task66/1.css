@@ -1,0 +1,20 @@
+#aa {
+  width: 300px;
+  border: 1px solid blue;
+  text-align: justify;
+  padding: 10px 20px 30px 40px;
+}
+
+#aa1 {
+  width: 300px;
+  border: 1px solid rgb(92, 48, 158);
+  text-align: justify;
+  padding: 50px 25px;
+}
+
+#aa2 {
+  width: 300px;
+  border: 1px solid rgb(255, 0, 166);
+  text-align: justify;
+  padding: 15px 20px 40px;
+}

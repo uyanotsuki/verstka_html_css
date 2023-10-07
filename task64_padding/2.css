@@ -1,0 +1,17 @@
+#elem {
+  padding: 20px;
+  width: 500px;
+  /* height: 350px; */
+  border: 1px solid rgb(12, 119, 44);
+  text-align: justify;
+}
+
+#elem2 {
+  margin-left: 40px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 300px;
+  /* height: 350px; */
+  border: 1px solid red;
+  text-align: justify;
+}
