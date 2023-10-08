@@ -1,0 +1,124 @@
+/* task 1 */
+#elem1 {
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(211, 70, 211);
+}
+
+#elem2 {
+  position: absolute;
+  left: 190px;
+  top: 190px;
+
+  width: 100px;
+  height: 100px;
+  border: 2px solid palevioletred;
+}
+#elem3 {
+  position: absolute;
+  left: 320px;
+  top: 320px;
+
+  width: 100px;
+  height: 100px;
+  border: 2px solid plum;
+}
+
+/* task 2 */
+h1.zzzzz {
+  margin-top: 400px;
+}
+#z {
+  position: absolute;
+  left: 50px;
+  top: 550px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(211, 70, 211);
+}
+
+#x {
+  position: absolute;
+  left: 170px;
+  top: 550px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid palevioletred;
+}
+
+#c {
+  position: absolute;
+  left: 290px;
+  top: 550px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid plum;
+}
+
+/* 3 */
+h1.bleach {
+  margin-top: 200px;
+}
+
+#v {
+  position: absolute;
+  left: 50px;
+  top: 750px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(211, 70, 211);
+}
+
+#b {
+  position: absolute;
+  left: 105px;
+  top: 805px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid palevioletred;
+}
+
+#n {
+  position: absolute;
+  left: 160px;
+  top: 860px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid plum;
+}
+
+/* 4 */
+h1.bleachhh {
+  margin-top: 230px;
+}
+
+#vv {
+  position: absolute;
+  left: 50px;
+  top: 1050px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+#bb {
+  position: absolute;
+  left: 105px;
+  top: 1105px;
+  width: 100px;
+  height: 100px;
+  /* border: 2px solid palevioletred; */
+  background-color: pink;
+}
+
+#nn {
+  position: absolute;
+  left: 160px;
+  top: 1160px;
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+}

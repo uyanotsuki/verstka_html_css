@@ -1,0 +1,43 @@
+.qq {
+  display: block;
+  margin: 30px auto;
+  width: 700px;
+
+  border: 3px solid palevioletred;
+  background-color: pink;
+  font: 15px Arial;
+  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+#elem1 {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #FF8888;
+}
+
+#elem2 {
+  position: relative;
+  top: -20px;
+  left: 80px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #7E89EB;
+}
+
+#elem3 {
+  position: relative;
+  top: -60px;
+  left: 160px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #4DEE99;
+}
