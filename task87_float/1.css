@@ -1,0 +1,13 @@
+div {
+  width: 600px;
+  text-align: justify;
+}
+
+img.aa {
+  float: left;
+  width: 200px;
+}
+img.bb {
+  float: right;
+  width: 150px;
+}
