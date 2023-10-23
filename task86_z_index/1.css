@@ -1,0 +1,32 @@
+#elem1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  width: 100px;
+  height: 100px;
+  background: #ff8888;
+  z-index: 1;
+}
+
+#elem2 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+
+  width: 100px;
+  height: 100px;
+  background: #673ca8;
+  z-index: 2;
+}
+
+#elem3 {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+
+  width: 100px;
+  height: 100px;
+  background: #3c7188;
+  z-index: 1;
+}
