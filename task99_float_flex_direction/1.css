@@ -1,0 +1,76 @@
+/* flex-direction,
+которое регулирует то,
+как выстраиваются наши блоки. По умолчанию оно имеет значение row,
+поэтому элементы выстраиваются в ряд. */
+/* Значение row-reverse также позволяет выстраивать блоки в ряд, прижимая их к правому краю. При этом происходит переворот порядка - первый блок будет самым правым
+flex-direction: row-reverse; */
+
+/* Значение column выстраивает элементы в колонку
+flex-direction: column; */
+
+/* flex-direction: column-reverse; - элементы будут прижаты к низу,
+при этом первый элемент будет самым нижним */
+
+/* 1 */
+.parent {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.child {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+/* 2 */
+.parent2 {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.child2 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+/* 3 */
+.parent3 {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 600px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.child3 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+/* 4 */
+.parent4 {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 600px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.child4 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
