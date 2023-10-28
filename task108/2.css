@@ -1,0 +1,26 @@
+#menu {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+/* Напишем стили наших ссылок */
+#menu a {
+  
+  margin-bottom: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  font: 15px Raleway;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #d2157d;
+  background-color: #d2157d;
+}
+
+/* Напишем стили наших ссылок */
+#menu a:hover, a.active {
+  color: rgb(182, 22, 112);
+  background-color: #ffffff;
+}
+
+/*  */

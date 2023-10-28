@@ -1,0 +1,24 @@
+#menu {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #ef87c0;
+}
+
+/* Напишем стили наших ссылок */
+#menu a {
+  padding: 15px 35px;
+  /* box-sizing: border-box; */
+  font: 15px Raleway;
+  text-decoration: none;
+  color: #ffffff;
+  /* border: 1px solid #d2157d; */
+  
+}
+
+/* Напишем стили наших ссылок */
+#menu a:hover, a.active {
+  color: rgb(255, 255, 255);
+  background-color: #c13193;
+}
+
+/*  */
