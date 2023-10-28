@@ -1,0 +1,53 @@
+/* 1 */
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child {
+  width: 120px;
+  /* height: 60px; */
+  border: 1px solid green;
+}
+
+/* 2 */
+.parent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child2 {
+  /* width: 120px; */
+  height: 40px;
+  border: 1px solid green;
+}
+
+/* 3 */
+.parent3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child3 {
+  /* width: 120px; */
+  height: 40px;
+  border: 1px solid green;
+}
