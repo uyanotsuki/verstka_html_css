@@ -1,0 +1,95 @@
+/* 
+flex-start - прижимает элементы к началу главной оси
+lex-end - к концу главной оси
+
+.parent {
+  display: flex;
+  flex-direction: row; - главная ось слева направо
+  justify-content: flex-start; - блоки к началу главной оси
+}
+*/
+
+/* 1 */
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* 2 */
+.parent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child2 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* 3 */
+.parent3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child3 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* 4 */
+.parent4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child4 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+/* 5 */
+.parent5 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+
+.child5 {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
